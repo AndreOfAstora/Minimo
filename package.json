@@ -1,0 +1,24 @@
+{
+  "name": "minimo",
+  "version": "1.0.0",
+  "description": "LP written with SASS",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --update src/SCSS:SASS_output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreOfAstora/Minimo.git"
+  },
+  "author": "AndreOfAstora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreOfAstora/Minimo/issues"
+  },
+  "homepage": "https://github.com/AndreOfAstora/Minimo#readme",
+  "dependencies": {
+    "sass": "^1.32.6"
+  }
+}
