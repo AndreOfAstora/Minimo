@@ -1,0 +1,22 @@
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    &__logo {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        list-style: none;
+        padding-left: 0;
+    }
+    &__item{        
+        margin-left: 12.1%;
+        color: $primary-typo-color;
+        //margin-left: 120px;
+    }
+}

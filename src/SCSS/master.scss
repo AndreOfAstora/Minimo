@@ -1,8 +1,8 @@
 @import 
-    '1-utilities/_functions.scss',
+    '1-utilities/_variables.scss',
     '1-utilities/_functions.scss',
     '1-utilities/_mixins.scss',
-    '1-utilities/_variables.scss';
+    '1-utilities/_margins.scss';
 
 @import 
     '2-vendors/_normalize.scss';
@@ -12,11 +12,13 @@
     '3-base/_typography.scss';
 
 @import
+    '4-layout/_layout.scss',
     '4-layout/_footer.scss',
     '4-layout/_forms.scss',
     '4-layout/_header.scss';
 
 @import
+    '5-components/_header-nav.scss',
     '5-components/_buttons.scss',
     '5-components/_cards.scss',
     '5-components/_galery.scss',
