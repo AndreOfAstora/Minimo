@@ -1,12 +1,10 @@
 .header-nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
     // justify-content: space-between;
-    &__logo {
-        font-size: 30px;
-        display: flex;
-        align-items: center;
-    }
     &__list{
         display: flex;
         justify-content: flex-end;
@@ -16,7 +14,6 @@
     }
     &__item{        
         margin-left: 12.1%;
-        color: $primary-typo-color;
         //margin-left: 120px;
     }
 }
