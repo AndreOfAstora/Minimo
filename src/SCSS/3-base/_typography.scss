@@ -1,32 +1,32 @@
 .header-nav {
     &__logo {
         font-family: 'Inconsolata';        
-        font-size: 30pt;
+        font-size: 30px;
         letter-spacing: 9px;
     }
     & .nav-item {
         font-family: 'Playfair Display';
-        font-size: 14pt;     
+        font-size: 14px;     
         color: $primary-typo-color;
     }
 }
 .heading {
     font-family: 'Playfair Display';
-    font-size: 30pt;
+    font-size: 30px;
     color: $primary-typo-color;
 }
 .main-text {
     font-family: 'Playfair Display';
-    font-size: 14pt;
+    font-size: 14px;
     color: $primary-typo-color;
     text-align: justify;
-    line-height: 24pt;
+    line-height: 24px;
 }
 
 .category, .post-preview__comment {
     font-family: "Ubuntu";
     font-weight: $fw-light;
-    font-size: 14pt;
+    font-size: 14px;
     color: $secondary-typo-color;
     text-transform: uppercase;
 }

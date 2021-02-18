@@ -1,0 +1,20 @@
+.card-area {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: -60px;
+    // padding: -25px;
+    width: calc(100% + 60px);
+    max-width: 960px;    
+}
+.card {
+    // max-width: 425px;
+    flex-grow: 1;
+    flex-basis: 350px;
+    margin-right:60px;
+
+    &__img {
+        width: 100%;
+    }
+}
