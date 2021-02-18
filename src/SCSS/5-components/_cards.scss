@@ -6,13 +6,16 @@
     margin-right: -60px;
     // padding: -25px;
     width: calc(100% + 60px);
-    max-width: 960px;    
+    max-width: 960px; 
+    
+    & > * {
+        margin-right:60px;
+    }
 }
 .card {
     // max-width: 425px;
     flex-grow: 1;
-    flex-basis: 350px;
-    margin-right:60px;
+    flex-basis: 350px;    
 
     &__img {
         width: 100%;
