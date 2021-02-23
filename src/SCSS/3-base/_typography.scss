@@ -14,6 +14,9 @@
     font-family: 'Playfair Display';
     font-size: 30px;
     color: $primary-typo-color;
+    &.nl-signup-form__heading {
+        color: $nl-heading-color;
+    }
 }
 .main-text {
     font-family: 'Playfair Display';
@@ -29,5 +32,12 @@
     font-size: 14px;
     color: $secondary-typo-color;
     text-transform: uppercase;
+}
+
+.email-field{
+    font-family: "Playfair Display";
+    font-size: 14px;
+    color: $primary-typo-color;
+    width: 364px;
 }
 
