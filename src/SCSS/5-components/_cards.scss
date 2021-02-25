@@ -11,6 +11,12 @@
     & > * {
         margin-right:60px;
     }
+    
+    &__btn-positioner{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 .card {
     // max-width: 425px;

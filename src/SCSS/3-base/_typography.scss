@@ -33,11 +33,16 @@
     color: $secondary-typo-color;
     text-transform: uppercase;
 }
-
-.email-field{
+ 
+.email-field {
     font-family: "Playfair Display";
     font-size: 14px;
     color: $primary-typo-color;
-    width: 364px;
+}
+
+.load-more-btn {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    color: $load-mor-btn-typo-color;
 }
 
