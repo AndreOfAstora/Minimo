@@ -12,7 +12,8 @@
         margin-right:60px;
     }
     
-    &__btn-positioner{
+    &__btn-positioner{ 
+        margin-top: 30px;       
         flex-basis: 100%;
         display: flex;
         justify-content: center;
@@ -22,6 +23,7 @@
     // max-width: 425px;
     flex-grow: 1;
     flex-basis: 350px;    
+    margin-bottom: 125px;
 
     &__img {
         width: 100%;
